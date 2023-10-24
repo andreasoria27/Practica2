@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="nombre" />
+    <string name="campo_notas" />
+    <string name="boton_aceptar" />
+    <string name="boton_cancelar" />
+    <string name="apellidos" />
+</resources>

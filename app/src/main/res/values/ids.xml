@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvTitulo2" type="id" />
+    <item name="ivReceta" type="id" />
+    <item name="guideline" type="id" />
+    <item name="tvAutor" type="id" />
+    <item name="tvTitulo" type="id" />
+    <item name="tvDescripcion" type="id" />
+    <item name="tvTextoDescripcion" type="id" />
+    <item name="guideline4" type="id" />
+    <item name="tvIngredientes" type="id" />
+    <item name="tvTextoIngredientes" type="id" />
+    <item name="tvReceta" type="id" />
+    <item name="tvTextoReceta" type="id" />
+    <item name="ratingBar" type="id" />
+</resources>
