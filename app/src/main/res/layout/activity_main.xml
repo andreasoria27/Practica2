@@ -10,7 +10,7 @@
     <Button
         android:id="@+id/btReceta"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="3dp"
         android:layout_marginBottom="462dp"
@@ -40,7 +40,7 @@
     <Button
         android:id="@+id/btAgenda"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="7dp"
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="15dp"

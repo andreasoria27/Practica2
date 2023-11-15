@@ -11,6 +11,7 @@
         android:id="@+id/ivReceta"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginStart="4dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,16 +24,23 @@
 
     <TextView
         android:id="@+id/tvAutor"
-        android:layout_width="198dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="4dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="46dp"
         android:fontFamily="sans-serif-black"
         android:text="Fabada Asturiana"
+        android:textAlignment="center"
         android:textColor="#321798"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tvTitulo"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivReceta"
+        app:layout_constraintVertical_bias="0.51" />
 
     <TextView
         android:id="@+id/tvTitulo"
@@ -43,6 +51,7 @@
         android:text="Andrea Soria Minguillán"
         android:textColor="#3D1D77"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -132,13 +141,21 @@
     <RatingBar
         android:id="@+id/ratingBar"
         style="@android:style/Widget.DeviceDefault.Light.RatingBar"
-        android:layout_width="202dp"
-        android:layout_height="47dp"
+        android:layout_width="159dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
         android:isIndicator="false"
         android:numStars="5"
         android:rating="3.5"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="138dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivReceta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

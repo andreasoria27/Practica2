@@ -19,11 +19,11 @@ class AgendaActivity : AppCompatActivity() {
 
         btAceptar.setOnClickListener{ponerNombreTitulo()}
 
-        btCancelar.setOnClickListener() { finish() }
+        btCancelar.setOnClickListener{ponerNombreTitulo()}
     }
 
-
-
+    //creamos el metodo para que nos salga un mensaje al dejar
+    //los cmpos nombre y apellido vacio.
     fun ponerNombreTitulo(){
         if (etNombre.text.isEmpty() && etApellidos.text.toString().isEmpty()){
             println("Es necesario introducir el Nombre y el Apellido.")

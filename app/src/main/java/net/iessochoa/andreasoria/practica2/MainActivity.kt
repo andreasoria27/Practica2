@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btAgenda = findViewById(R.id.btAgenda)
+        btReceta = findViewById(R.id.btReceta)
 
         btAgenda.setOnClickListener{enviarAgenda()}
         btReceta.setOnClickListener{enviarReceta()}
@@ -22,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun enviarAgenda(){
-        val intent = Intent(this, AgendaActivity::class.java)
+        val intent = Intent(this,AgendaActivity::class.java)
         startActivity(intent)
     }
 
