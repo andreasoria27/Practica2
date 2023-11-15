@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/ivReceta"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="405dp"
+        android:layout_height="182dp"
         android:layout_marginStart="4dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/guideline"

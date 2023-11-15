@@ -5,4 +5,5 @@
     <string name="boton_aceptar" />
     <string name="boton_cancelar" />
     <string name="apellidos" />
+    <string name="nuevo_contacto">Nuevo Contacto</string>
 </resources>

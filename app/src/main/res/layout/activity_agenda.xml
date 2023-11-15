@@ -11,7 +11,7 @@
         android:id="@+id/tvNuevoContacto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nuevo Contacto"
+        android:text="@string/nuevo_contacto"
         android:textAlignment="center"
         android:textSize="24sp" />
 
